@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://www.codemetal.ai/forge-hackathon">Event Site</a> ·
-  <a href="mailto:forge@codemetal.ai">forge@codemetal.ai</a>
+  <a href="mailto:events@codemetal.ai">events@codemetal.ai</a>
 </p>
 
 ---
@@ -35,7 +35,6 @@ Welcome! This is the official GitHub organization for the **[Code Metal Forge Ha
 - [Judging & Prizes](#-judging--prizes)
 - [Hardware & Mentorship](#-hardware--mentorship)
 - [Agenda](#-agenda)
-- [Teams](#-teams)
 - [FAQ](#-faq)
 - [Contact](#-contact)
 
@@ -43,39 +42,37 @@ Welcome! This is the official GitHub organization for the **[Code Metal Forge Ha
 
 ## 📜 Rules for Using This GitHub Org
 
-> [!WARNING]
-> **PLACEHOLDER — TO BE UPDATED.** The rules below are a working draft and are subject to change by the organizers before and during the event. Check back for the final version.
-
 **Access & accounts**
 
-1. Every participant must use a personal GitHub account and accept the org invitation before the build starts. Two-factor authentication (2FA) is required.
-2. Org membership is granted for the duration of the event only. Access may be reduced or removed after judging concludes.
+1. Every participant must use a personal GitHub account with two-factor authentication (2FA) enabled, and accept the invitation to their team's repository before the build starts.
+2. Repository access is granted for the duration of the event only. Access may be reduced or removed after judging concludes.
 
 **Repositories**
 
-3. One repository per team, created by the organizers (or by the team on request). Use the naming convention: `team-<number>-<short-name>` (e.g., `team-07-beacon`).
+3. One repository per team, created by the organizers (or by the team on request). Teams may update the name of their repo to the following naming convention: `team-<number>-<short-name>` (e.g., `team-07-beacon`).
 4. Only commit to your own team's repository. Do not open issues, PRs, forks, or otherwise interfere with another team's repo.
-5. Repositories remain **private** during the build. Visibility after the event will be decided by the organizers in consultation with teams.
+5. Repositories remain **private** during the build.
 6. Each repo must contain a `README.md` describing the project, team members, setup/build steps, hardware used, and how to run the demo.
+7. Each repo will be made public at the end of the event.
 
 **Submissions**
 
-7. **Submissions close Sunday, Nov 8 at 12:00 PM EST.** The last commit on the default branch at or before the cutoff is your submission. Commits after the cutoff will not be considered for judging.
-8. Tag your final submission commit: `git tag submission && git push origin submission`.
-9. Only work produced during the event may be submitted. Pre-existing open-source libraries, frameworks, and SDKs are fine — credit them in your README.
+8. **Submissions close Sunday, Nov 8 at 12:00 PM EST.** The last commit on the default branch at or before the cutoff is your submission. Commits after the cutoff will not be considered for judging.
+9. Tag your final submission commit: `git tag submission && git push origin submission`.
+10. Only work produced during the event may be submitted. Pre-existing open-source libraries, frameworks, and SDKs are fine — credit them in your README.
 
 **Security & data handling**
 
-10. **Never commit secrets** — API keys, tokens, passwords, private keys, or credentials. Use environment variables or a `.env` file listed in `.gitignore`. Leaked secrets will be revoked and the repo may be locked until cleaned.
-11. **No classified, Controlled Unclassified Information (CUI), ITAR/export-controlled, or otherwise sensitive government data** may be committed to this org. If you are unsure whether something qualifies, ask an organizer before committing.
-12. No personal data about real individuals (location traces, images, audio, etc.) beyond synthetic or consented test data.
-13. Large binaries (datasets, model weights, firmware images, SDR captures) should use Git LFS or be linked externally rather than committed directly.
+11. **Never commit secrets** — API keys, tokens, passwords, private keys, or credentials. Use environment variables or a `.env` file listed in `.gitignore`. Leaked secrets will be revoked and the repo may be locked until cleaned.
+12. **No classified, Controlled Unclassified Information (CUI), ITAR/export-controlled, or otherwise sensitive government data** may be committed to this org. If you are unsure whether something qualifies, ask an organizer before committing.
+13. No personal data about real individuals (location traces, images, audio, etc.) beyond synthetic or consented test data.
+14. Large binaries (datasets, model weights, firmware images, SDR captures) should use Git LFS or be linked externally rather than committed directly.
 
 **Conduct & IP**
 
-14. All participants are expected to follow the event code of conduct in all repos, issues, and discussions.
-15. Intellectual property and licensing terms for submitted work are governed by the event participation agreement. Add a `LICENSE` file only if instructed by the organizers.
-16. Organizers and judges may be granted read access to all team repos for review.
+15. All participants are expected to follow the event code of conduct in all repos, issues, and discussions.
+16. Intellectual property and licensing terms for submitted work are governed by the event participation agreement. The `LICENSE` file for your repo must be an Open Source Initiative (OSI) compliant license, as defined at https://opensource.org/osd . Examples include MIT License, BSD License, or Apache 2.0 license.
+17. Organizers and judges may be granted read access to all team repos for review.
 
 ---
 
@@ -86,6 +83,7 @@ All times Eastern (EST).
 | When | What |
 |---|---|
 | **Fri, Nov 6 · 5:00 PM** | Reception opens — check-in for VIPs, speakers & judges |
+| **Sat, Nov 7 · 7:30 AM** | Hardware Kit Check out window begins |
 | **Sat, Nov 7 · 10:00 AM** | Hackathon begins — hard start on the build floor |
 | **Sun, Nov 8 · 12:00 PM** | Submissions close — hard cutoff, live demos follow |
 
@@ -122,9 +120,19 @@ Working prototypes are judged by experts from defense, emergency response, acade
 
 **Evaluation criteria**
 
-- **Mission relevance**
-- **A working live demonstration**
-- **Deployability**
+1. **Real-world relevance?** How meaningful and relevant is the project to a real-world problem, capability, user need, or Code Metal Forge challenge?
+2. **A Working Live Demonstration?** Can the team demonstrate the core capability it built?
+3. **Deployability?** How realistically could the prototype move from a hackathon demonstration toward use in a real environment?
+4. **Ideation?** How creative, original, or inventive is the project and the team’s approach?
+
+**What judges are *not* weighing heavily**
+
+Code Metal Forge is a hackathon, not a production-code review or a sales competition. Do not weigh projects primarily on:
+
+- **Code cleanliness.** Hackathon code is expected to reflect rapid experimentation and iteration, not perfect formatting, documentation, or architecture.
+- **Pitch polish.** Understanding what was built and seeing it work matters far more than presentation style.
+- **Production readiness.** Deployability asks whether there is a credible path toward deployment, not whether that journey was completed during the hackathon.
+- **A finished product.** Ambitious projects may not be complete. Credit the functionality that works and the technical progress made.
 
 **$18,000 prize pool**
 
@@ -134,9 +142,9 @@ Working prototypes are judged by experts from defense, emergency response, acade
 | 🥈 Second (Runner-Up) | $5,000 |
 | 🥉 Third | $3,000 |
 
-The winning team also earns a meeting with Code Metal leadership, and university participants on the winning team receive an automatic internship interview.
+The winning team also earns a meeting with Code Metal leadership, and each team member receives an interview for a potential internship with Code Metal.
 
-**Every hacker gets:** a limited-edition T-shirt, water bottle, sling backpack, and challenge coin.
+**Every hacker gets:** a limited-edition hoodie, water bottle, sling backpack, and challenge coin.
 
 ---
 
@@ -149,7 +157,7 @@ The winning team also earns a meeting with Code Metal leadership, and university
 - Imaging, thermal & environmental sensors
 - Electronics, debugging & test equipment
 
-**Mentorship:** Specialists from defense, deep tech, and Code Metal are on the floor and embedded with teams throughout the build. Special Operations Forces operators provide mission context and rapid user feedback; technical mentors help with sensing, communications, autonomy, embedded, and ML challenges.
+**Mentorship:** Specialists from defense, deep tech, and Code Metal will roam the floor throughout the build, supporting teams as needed without being assigned to specific teams. Special Operations Forces operators provide mission context and rapid user feedback; technical mentors help with sensing, communications, autonomy, embedded systems, and ML challenges.
 
 ---
 
@@ -170,34 +178,18 @@ The winning team also earns a meeting with Code Metal leadership, and university
 
 ---
 
-## 👥 Teams
-
-- Teams have **up to four members**.
-- Solo participants are welcome and will be matched with a team at Saturday morning's team-building session.
-- Participants include university teams and individual technologists building alongside Special Operations Forces operators, first responders, academics, and deep-tech innovators.
-
-<!-- Organizers: add the team roster / repo index here once teams are finalized.
-| Team | Repo | Members |
-|---|---|---|
-| Team 01 | [team-01-name](../team-01-name) | ... |
--->
-
----
-
 ## ❓ FAQ
 
 **Will food be provided?**
 Yes — breakfast, lunch, dinner, snacks, and drinks from Friday's reception through Sunday's awards, served right on the build floor.
 
-**Do I need a team?**
-No. See [Teams](#-teams).
-
 ---
 
 ## 📬 Contact
 
-- **Email:** [forge@codemetal.ai](mailto:forge@codemetal.ai)
+- **Email:** [events@codemetal.ai](mailto:events@codemetal.ai)
 - **Event site:** [codemetal.ai/forge-hackathon](https://www.codemetal.ai/forge-hackathon)
+- **Event Discord** [discord.com/invite/codemetalforge-hackathon](https://discord.com/invite/codemetalforge-hackathon)
 - **Code Metal:** [codemetal.ai](https://www.codemetal.ai/)
 
 <p align="center"><sub>Sponsored by USSOCOM · Hosted &amp; produced by Code Metal · © 2026 Code Metal</sub></p>
