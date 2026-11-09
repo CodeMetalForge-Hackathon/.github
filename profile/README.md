@@ -1,18 +1,21 @@
 <p align="center">
-  <a href="https://www.codemetal.ai/forge-hackathon">
-    <img src="https://www.codemetal.ai/forge-hackathon/cm-logo-horizontal.svg" alt="Code Metal" width="320">
+  <a href="https://www.codemetal.ai">
+    <img src="https://github.com/user-attachments/assets/23da61ee-b6c9-4fba-a4bc-69770e9eae0e" width="320" alt="Code Metal">
   </a>
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1fa604f6-68f7-4ce4-b424-2d680a90248f" alt="Code Metal Forge anvil animation" width="320">
+</br>
+  <a href="https://www.codemetal.ai/forge-hackathon">
+    <img src="https://github.com/user-attachments/assets/1fa604f6-68f7-4ce4-b424-2d680a90248f" alt="Code Metal Forge anvil animation" width="320">
+  </a>
 </p>
 
 <h1 align="center">Code Metal Forge Hackathon 2026</h1>
 <h3 align="center">Operation Lost and Found — Search &amp; Rescue in Dangerous Environments</h3>
 
 <p align="center">
-  <img src="https://www.codemetal.ai/_next/image?url=%2Fforge-hackathon%2Fussocom.png&w=128&q=75" alt="United States Special Operations Command seal" width="64"><br>
+  <a href="https://www.socom.mil/">
+    <img width="64" alt="USSOCOM" src="https://github.com/user-attachments/assets/6edbf5b5-b3ec-4334-bd36-40ee8022ad72">
+  </a>
+<br>
   <b>Nov 6–8, 2026</b> · <b>$18,000 prize pool</b><br>
   Sponsored by U.S. Special Operations Command (USSOCOM) · Hosted &amp; produced by Code Metal
 </p>
