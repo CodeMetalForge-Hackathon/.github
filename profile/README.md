@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://www.codemetal.ai">
-    <img src="https://github.com/user-attachments/assets/23da61ee-b6c9-4fba-a4bc-69770e9eae0e" width="320" alt="Code Metal">
+    <img src="code-metal-logo.png" width="320" alt="Code Metal">
   </a>
 <br>
   <a href="https://www.codemetal.ai/forge-hackathon">
-    <img src="https://github.com/user-attachments/assets/1fa604f6-68f7-4ce4-b424-2d680a90248f" alt="Code Metal Forge anvil animation" width="320">
+    <img src="code-metal-forge-animation.gif" alt="Code Metal Forge anvil animation" width="320">
   </a>
 </p>
 
